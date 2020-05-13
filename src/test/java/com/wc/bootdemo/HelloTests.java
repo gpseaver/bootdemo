@@ -24,6 +24,7 @@ public class HelloTests {
 
     @Before
     public void setUp()  {
+        String s = "";
         mvc = MockMvcBuilders.standaloneSetup(new HelloController()).build();
     }
 
